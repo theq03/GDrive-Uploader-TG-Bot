@@ -3,10 +3,10 @@ import os
 class Config:
   ENV = bool(os.environ.get('ENV', False))
   if ENV:
-    BOT_TOKEN = os.environ.get('BOT_TOKEN')
-    APP_ID = os.environ.get('APP_ID')
-    API_HASH = os.environ.get('API_HASH')
-    DATABASE_URL = os.environ.get('DATABASE_URL')
+    BOT_TOKEN = os.environ.get('5896556129:AAFZHjNvmG1eq4VVO45ThhjUZdMKk0gh9mM')
+    APP_ID = os.environ.get('2572163')
+    API_HASH = os.environ.get('deede80ddff7842db6c90b5715635142')
+    DATABASE_URL = os.environ.get('mongodb+srv://GDriveQbot:GDriveQbot@cluster0.2b9k6q5.mongodb.net/?retryWrites=true&w=majority')
   else:
     BOT_TOKEN = '1394534244:AAHbVTthzn1sNbclrt9lyrrSt_Msvz46jWA' # Get it from https://t.me/BotFather
     APP_ID = '1680362' # Get it from my.telegram.org/apps
